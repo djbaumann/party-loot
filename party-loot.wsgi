@@ -1,4 +1,4 @@
 import sys
 sys.path.insert(0, '/var/www/html/party-loot')
 
-from flaskapp import app as application
+from party-loot import app as application
