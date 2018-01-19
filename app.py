@@ -1,13 +1,11 @@
-from flask import Flask, render_template, json, request
-from flaskext.mysql import MySQL
-from werkzeug import generate_password_hash, check_password_hash
-
+from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
-def main():
-    return "welcome!"
+
+@app.route('/')
+def hello_world():
+  return 'Hello from Flask!'
 
 
-if __name__ == "__main__":
-    app.run()
+if __name__ == '__main__':
+  app.run()
