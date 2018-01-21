@@ -1,6 +1,6 @@
 .header {
     background-color: #F1F1F1;
-    text-align: center;
+    text-align: left;
     padding: 20px;
 }
 
@@ -8,21 +8,41 @@
     font-family: 'Macondo', cursive;
 }
 
-nav {
+nav.topnav {
     overflow: hidden;
 }
 
-nav a {
-    float: right;
+nav.topnav a {
+    float: center;
     display: block;
-    color: #2e1515;
+    color: #971616;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Macondo', cursive;
 }
 
+nav.topnav ul li {
+    display: inline-block;
+    zoom: 1;
+}
+
 nav a:hover  {
-    background-color: rgb(99, 98, 98);
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.login {
+    float: right;
+    display: block;
+    color: #971616;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Macondo', cursive;
+}
+
+.login a:hover {
+    background-color: rgb(158, 158, 158);
     color: black;
 }
