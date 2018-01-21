@@ -1,0 +1,28 @@
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    font-family: 'Macondo', cursive;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: #2e1515;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Macondo', cursive;
+}
+
+nav a:hover  {
+    background-color: rgb(99, 98, 98);
+    color: black;
+}
