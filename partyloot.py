@@ -6,11 +6,11 @@ from werkzeug import generate_password_hash, check_password_hash
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/info')
 def main():
     return render_template("index.html")
 
-@app.route('/welcomepage')
+@app.route('/')
 def welcome():
     return render_template("welcome.html")
 
