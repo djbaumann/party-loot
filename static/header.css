@@ -33,6 +33,10 @@ nav a:hover  {
 }
 
 .login {
+    overflow: hidden;
+}
+
+.login a {
     float: right;
     display: block;
     color: #971616;
