@@ -13,12 +13,8 @@ nav.topnav {
 }
 
 nav.topnav a {
-    float: center;
     display: block;
     color: #971616;
-    text-align: center;
-    
-    padding: 14px 16px;
     text-decoration: none;
     font-family: 'Macondo', cursive;
 }
