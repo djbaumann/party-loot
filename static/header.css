@@ -2,9 +2,10 @@
     background-color: #F1F1F1;
     text-align: left;
     padding: 20px;
+    font-family: "Macondo", cursive;
 }
 
-.logo {
+/* .logo {
     font-family: 'Macondo', cursive;
 }
 
@@ -46,4 +47,4 @@ nav a:hover  {
 .login a:hover {
     background-color: rgb(158, 158, 158);
     color: black;
-}
+} */
