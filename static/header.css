@@ -1,8 +1,11 @@
 .header {
-    background-color: #F1F1F1;
-    text-align: left;
-    padding: 20px;
     font-family: "Macondo", cursive;
+}
+
+.user-dropdown {
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
 }
 
 /* .logo {
