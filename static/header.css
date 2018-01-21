@@ -31,6 +31,7 @@ nav a:hover  {
 
 .login {
     overflow: hidden;
+    font-family: 'Macondo', cursive;
 }
 
 .login a {
@@ -40,7 +41,6 @@ nav a:hover  {
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Macondo', cursive;
 }
 
 .login a:hover {
